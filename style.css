@@ -1,0 +1,29 @@
+body{
+    background: #131313;
+}
+.clock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    font-family: sans-serif;
+}
+
+.time{
+    background:black;
+    color: #FFFFFF;
+    font-size: 100px;
+    width: 150px;
+    margin: 0 10px;
+    text-align: center;
+
+
+}
+
+.heading{
+    color:#FFFFFF;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+}
